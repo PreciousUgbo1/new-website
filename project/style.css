@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body {
+	font-family: 'Inter';
+	margin: 0;
+}
+
+.navigation {
+	background-color: #f5f5dc;
+	color: black;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 24px;
+	padding-top: 11px;
+	padding-bottom: 12px;
+	padding-left: 6.38vw;
+	padding-right: 6.38vw;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.homepage {
+	letter-spacing: 5px;
+
+  }
+
+
+
+
+a:link,  .dropbtn {
+	text-decoration: none;
+	color: black;
+  }
+  
+  
+  a:hover,  .dropdown:hover .dropbtn {
+	text-decoration: none;
+	color: green;
+  }
+  
+  a:active {
+	text-decoration: underline;
+	color: black;
+  }
+
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	background-color:#f5f5dc ;
+	min-width: 50px;
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	color: black;
+	padding: 15px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+  }
+   
+  .dropdown-content a:hover {background-color:#f5f5dc }
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/*.nav-link {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+    
+	color: black;
+	text-decoration: none;
+}
+
+
+.link-container {
+	display: flex;
+	gap: 60px;
+}
+
+/* Twitter and instagram icon color*/
+
+
+
+.fa-brands {
+	color: black;
+	text-decoration: none;
+}
+
+
+.footer {
+	display: flex;
+	justify-content: right;
+	gap: 40px;
+}
+
+.NFT-button {
+	background-color:#f5f5dc ;
+	border: 2px solid black;
+	color: green;
+	padding: 5px 40px;  
+	text-align: center;
+	font-size: 20px;
+    cursor: pointer;
+	margin: 50px 70px;
+}
+
+
+
+
+.hero {
+	margin-top: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+    background-color: #272727;
+	color: #fff;
+	display: flex;
+	border-width: 50px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	padding-inline: 6.38vw;
+	gap: 65px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 10px;
+	align-items: center;
+
+  }
+  
+  
+  .column {
+	flex: 25%;
+	max-width: 32%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	
+  }
+  
+
+
+h1{
+	font-size: 70px;
+	padding-left: 50px;
+  }
+
+  p{
+
+	padding-left: 60px;
+  }
+
+
+
+
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: black;
+	padding-block: 10px;
+	padding-inline: 6.38vw;
+}
+
+
+.form-button {
+	background: #f5f5dc; 
+	border-radius: 1px;
+	width: 200px;
+	height: 60px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	/* identical to box height */
+
+
+	
+
+	
+}
+
+@media (max-width: 1200px) {
+	.hidden-in-mobile {
+		display: none;
+	}
+	.hero {
+		flex-wrap: wrap;
+	}
+}
